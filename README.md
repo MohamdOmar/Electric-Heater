@@ -25,5 +25,16 @@ This project implements an embedded system for an **Electric Heater** that can b
 
 ---
 
-## 🗂️ Project Structure
+## How It Works
+1. Reads temperature via LM35
+2. Displays it on 7-segment
+3. Periodically stores value to EEPROM using Timer and I2C
 
+## Future Improvements
+- Add LCD for more detailed UI
+- Implement UART to send logs to PC
+
+
+## Author
+Mohamed Omar 
+[GitHub Profile](https://github.com/MohamdOmar)
