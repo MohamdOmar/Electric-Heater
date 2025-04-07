@@ -1,0 +1,39 @@
+
+---
+
+## 🚀 How It Works
+
+1. The system continuously reads temperature using the **LM35**.
+2. It displays the temperature on a **7-segment display**.
+3. Based on the current temperature, it activates either the **heater** or **cooler**.
+4. Every few seconds (based on a timer), the system saves the temperature to an **EEPROM** using the **I2C protocol**.
+
+---
+
+## 🧪 Future Improvements
+
+- Add **UART interface** for serial communication with PC.
+- Implement **temperature thresholds** through user input.
+- Use an **LCD display** for more detailed output.
+- Enable **data retrieval** from EEPROM for history analysis.
+
+---
+
+## 📷 Demo
+
+> *(Add a screenshot or GIF here if you have one.)*
+
+---
+
+## 📩 Contact
+
+Developed by **Mohamed Omar Abdelghany**  
+Feel free to reach out for collaboration or feedback!  
+📧 mohamed.omar.dev@gmail.com  
+
+---
+
+## ⭐️ Star This Repo
+
+If you found this project helpful, please consider giving it a ⭐️. It helps a lot!
+
